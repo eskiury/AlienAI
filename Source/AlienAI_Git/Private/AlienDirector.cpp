@@ -103,7 +103,7 @@ void AAlienDirector::Tick(float DeltaTime)
 		AActor* HitActor = Hit.GetActor();
 		if (HitActor)
 		{
-			GEngine->AddOnScreenDebugMessage(2,0.1f,FColor::Cyan, FString::Printf(TEXT("Chocando con: %s"), *HitActor->GetName()));
+			//GEngine->AddOnScreenDebugMessage(2,0.1f,FColor::Cyan, FString::Printf(TEXT("Chocando con: %s"), *HitActor->GetName()));
 			
 			if (HitActor == PlayerRef || HitActor->GetOwner() == PlayerRef)
 			{
@@ -259,11 +259,11 @@ void AAlienDirector::CheckLinternaAlien(float DeltaTime)
 				PlayerRef->MakeNoise(FlashlightNoise, Cast<APawn>(GetOwner()), PlayerRef->GetActorLocation());
 
 
-				GEngine->AddOnScreenDebugMessage(3, 0.1f, FColor::Yellow, TEXT("DIRECTOR: Alumbrando al Alien!"));
+				//GEngine->AddOnScreenDebugMessage(3, 0.1f, FColor::Yellow, TEXT("DIRECTOR: Alumbrando al Alien!"));
 				//DrawDebugSphere(GetWorld(), PlayerRef->GetActorLocation(), 120.0f, 12, FColor::Purple, false, 2.0f);
 
 				// Dibujamos un rayo de luz debug para estar seguros
-				DrawDebugLine(GetWorld(), PlayerRef->GetActorLocation(), AlienRef->GetActorLocation(), FColor::Yellow, false, -1.f, 0, 5.f);
+				//DrawDebugLine(GetWorld(), PlayerRef->GetActorLocation(), AlienRef->GetActorLocation(), FColor::Yellow, false, -1.f, 0, 5.f);
 			}
 		}
 	}
