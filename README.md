@@ -21,7 +21,7 @@ Para validar los sistemas de ingeniería tridimensionales y la toma de decisione
 | <img src="https://github.com/user-attachments/assets/714c2a32-7d6a-4d70-8b9e-64b651fa5a7b" width="100%" alt="Vision Cones" /> | <img src="https://github.com/user-attachments/assets/33991b84-4712-4a89-9ab5-b6559d8a8aa7" width="100%" alt="State Tree Attack" /> |
 
 ### 🎯 Skeletal-Bound Perception Tracking (Amplified Senses)
-Demostración técnica de cómo las matrices de los sensores ópticos se acoplan directamente al hueso de la cabeza del Skeletal Mesh, logrando que los vectores de visión sigan de forma orgánica la animación del cuello y se desacoplen por completo de la cápsula rígida de colisión del actor[cite: 2].
+Demostración técnica de cómo las matrices de los sensores ópticos se acoplan directamente al hueso de la cabeza del Skeletal Mesh, logrando que los vectores de visión sigan de forma orgánica la animación del cuello y se desacoplen por completo de la cápsula rígida de colisión del actor.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f162e232-80a3-4ee9-b09e-ae828182d918" width="85%" alt="Skeletal Bound Perception Cone" />
@@ -30,12 +30,12 @@ Demostración técnica de cómo las matrices de los sensores ópticos se acoplan
 ---
 
 ### 🛠️ High-Level Interaction Triggers (Visual Scripting)
-Mientras que los núcleos matemáticos pesados y los sensores lógicos se procesan estrictamente en C++ para garantizar la tasa de refresco, los activadores de nivel (triggers), interfaces de interactuables y eventos sutiles del escenario se delegan en scripts visuales optimizados[cite: 2].
+Mientras que los núcleos matemáticos pesados y los sensores lógicos se procesan estrictamente en C++ para garantizar la tasa de refresco, los activadores de nivel (triggers), interfaces de interactuables y eventos sutiles del escenario se delegan en scripts visuales optimizados.
 
 <details>
 <summary>🔍 Click here to expand the High-Level Blueprint Trigger Graph</summary>
 
-Módulo desacoplado mediante interfaces que gestiona la física reactiva de los accesos y la propagación de rangos acústicos locales dentro del bucle sistémico[cite: 2].
+Módulo desacoplado mediante interfaces que gestiona la física reactiva de los accesos y la propagación de rangos acústicos locales dentro del bucle sistémico.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/23be0026-6cd4-4e90-9fa1-c1cfab6fb418" width="100%" alt="Blueprint Code" />
