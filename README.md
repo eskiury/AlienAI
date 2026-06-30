@@ -11,7 +11,37 @@ This project is a high-performance **systemic AI testing ground developed in Unr
 
 ---
 
-## 📽️ System Demonstration & Media
+## 📸 Systems Debugging & Media
+
+Para validar los sistemas de ingeniería tridimensionales y la toma de decisiones no lineal, se desarrollaron herramientas de diagnóstico visual directamente sobre el viewport de ejecución:
+
+| 🧠 Tridimensional Volumetric Raycasting (C++) | 🌲 Hierarchical State Tree Pipeline (Attack Core) |
+|---|---|
+| Muestra el sensor multizona desarrollado en código nativo calculando los umbrales de oclusión ambiental en tiempo real. | Estructura jerárquica que gestiona las transiciones atómicas basadas en Gameplay Tags para evitar la latencia de hilos. |
+| <img src="https://github.com/user-attachments/assets/714c2a32-7d6a-4d70-8b9e-64b651fa5a7b" width="100%" alt="Vision Cones" /> | <img src="https://github.com/user-attachments/assets/33991b84-4712-4a89-9ab5-b6559d8a8aa7" width="100%" alt="State Tree Attack" /> |
+
+### 🎯 Skeletal-Bound Perception Tracking (Amplified Senses)
+Demostración técnica de cómo las matrices de los sensores ópticos se acoplan directamente al hueso de la cabeza del Skeletal Mesh, logrando que los vectores de visión sigan de forma orgánica la animación del cuello y se desacoplen por completo de la cápsula rígida de colisión del actor[cite: 2].
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f162e232-80a3-4ee9-b09e-ae828182d918" width="85%" alt="Skeletal Bound Perception Cone" />
+</p>
+
+---
+
+### 🛠️ High-Level Interaction Triggers (Visual Scripting)
+Mientras que los núcleos matemáticos pesados y los sensores lógicos se procesan estrictamente en C++ para garantizar la tasa de refresco, los activadores de nivel (triggers), interfaces de interactuables y eventos sutiles del escenario se delegan en scripts visuales optimizados[cite: 2].
+
+<details>
+<summary>🔍 Click here to expand the High-Level Blueprint Trigger Graph</summary>
+
+Módulo desacoplado mediante interfaces que gestiona la física reactiva de los accesos y la propagación de rangos acústicos locales dentro del bucle sistémico[cite: 2].
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/23be0026-6cd4-4e90-9fa1-c1cfab6fb418" width="100%" alt="Blueprint Code" />
+</p>
+
+</details>
 
 ---
 
